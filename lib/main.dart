@@ -56,7 +56,7 @@ class _AskmeMainState extends State<AskmeMain> {
   Widget build(BuildContext context) {
     return Center(
       child: Padding(
-        padding: const EdgeInsets.all(16.0),
+        padding: const EdgeInsets.all(5.0),
         child: TextButton(
           onPressed: () {
             changeQues();

@@ -12,7 +12,7 @@ void main() {
             child: Text('Ask Me Anything'),
           ),
           flexibleSpace: Container(
-            decoration: BoxDecoration(
+            decoration:const  BoxDecoration(
                 gradient: LinearGradient(
                     begin: Alignment.topLeft,
                     end: Alignment.bottomRight,
@@ -24,7 +24,7 @@ void main() {
           ),
         ),
         body: Container(
-          decoration: BoxDecoration(
+          decoration:const BoxDecoration(
             image: DecorationImage(
               image: AssetImage('img/bg.jpg'),
               fit: BoxFit.cover,
